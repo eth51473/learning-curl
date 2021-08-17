@@ -1,0 +1,9 @@
+Curl options
+curl options are flags that tell curl which command it should do.
+curl -i includes the header in the output
+curl -X POST makes it a post and not a get request
+curl -H can specifiy headers for the request
+curl -data or -d preceeds the data that we want to send to the server
+curl -o allows us to store or download the output of a file
+curl -h help option to see other available commands
+curl - limit-rate allows us to set a limit to how fast something will download.
